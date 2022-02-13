@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula Bootstrap - DIO</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bootstrap/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparente">
+      <a class="margin-nav navbar-brand d-flex align-items-center x" href="#">
+        <img
+          class="margin-logo"
+          src="img/logo.png"
+          alt="logo"
+          width="45"
+          height="40px"
+        />
+        <strong>
+          <font style="vertical-align: inherit">
+            <font style="vertical-align: inherit"> kimmerkan </font>
+          </font>
+        </strong></a
+      >
+      <div class="collapse navbar-collapse nav justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#quemsomos">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#parceiros">Parceiros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Fim Navebar-->
+
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-slide" src="img/slide1.jpg" alt="slide1" />
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>
+                Some representative placeholder content for the first slide of
+                the carousel.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="first-slide" src="img/slide2.jpg" alt="slide2" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>
+                Some representative placeholder content for the second slide of
+                the carousel.
+              </p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="first-slide" src="img/slide3.jpg" alt="slide3" />
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>
+                Some representative placeholder content for the third slide of
+                this carousel.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Fim Carousel-->
+    <section id="servicos">
+      <div class="container-fluid text-center margin servicos">
+        <h2 class="margin">Serviços</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <img class="shadow p-0 mb-1 rounded" src="img/servico1.jpg" alt="" width="100%" />
+              <h6 class="padding-titulos">Serviço1</h6>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus at laborum nisi earum voluptates non doloribus
+                temporibus neque
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <img
+                class="shadow p-0 mb-1 rounded"
+                src="img/servico2.jpg"
+                alt=""
+                width="100%"
+              />
+              <h6 class="padding-titulos">Serviço1</h6>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus at laborum nisi earum voluptates non doloribus
+                temporibus neque
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <img
+                class="shadow p-0 mb-1 rounded"
+                src="img/servico3.jpg"
+                alt=""
+                width="100%"
+              />
+              <h6 class="padding-titulos">Serviço1</h6>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus at laborum nisi earum voluptates non doloribus
+                temporibus neque
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <img class="shadow p-0 mb-1 rounded" src="img/servico4.jpg" alt="" width="100%" />
+              <h6 class="padding-titulos">Serviço1</h6>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus at laborum nisi earum voluptates non doloribus
+                temporibus neque
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fim Serviços-->
+    <hr class="featurete-divider" />
+    <section id="quemsomos">
+      <div class="container-fluid quemsomos text-center margin">
+        <div class="container margin">
+          <div class="row">
+            <div class="col-lg-6">
+              <img
+                class="shadow p-0 mb-1 margin-nav rounded"
+                src="img/quemsomos.jpg"
+                alt="time"
+                width="100%"
+              />
+            </div>
+            <div class="col-lg-6 margin-nav">
+              <h2 class="padding-titulos">Quem Somos</h2>
+              <p class="margin text-justify fw-normal fs-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus at laborum nisi earum voluptates non doloribus
+                temporibus neque voluptas odio! Dolores quaerat laborum mollitia
+                sequi deserunt, facere odio cupiditate in!<br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus at laborum nisi earum voluptates non doloribus
+                temporibus neque voluptas odio! Dolores quaerat laborum mollitia
+                
+                Dolores quaerat laborum mollitia sequi deserunt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fim Quem Somos-->
+    <hr class="featurete-divider" />
+    <section id="parceiros">
+      <div class="container-fluid parceiros text-center margin">
+        <h2 class="margin">Parceiros</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="img/parceiro1.jpg" alt="parceiros" width="300" />
+            </div>
+            <div class="col-lg-4">
+              <img src="img/parceiro1.jpg" alt="parceiros" width="300" />
+            </div>
+            <div class="col-lg-4">
+              <img src="img/parceiro1.jpg" alt="parceiros" width="300" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fim Parceiros-->
+    <footer class="container-fluid text-center bg-footer margin">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h4>Empresa</h4>
+            <ul class="navbar-nav">
+              <li>
+                <a href="sobre">Serviços</a>
+              </li>
+              <li>
+                <a href="sobre">Parceiros</a>
+              </li>
+              <li>
+                <a href="sobre">Quem Somos</a>
+              </li>
+              <li>
+                <a href="sobre">Contato</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Comunidade</h4>
+            <ul class="navbar-nav">
+              <li>fsdcsd</li>
+              <li>dbdf</li>
+              <li>bdfbdf</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Links Úteis</h4>
+            <ul class="navbar-nav">
+              <li>fds</li>
+              <li>fasdf</li>
+              <li>agfad</li>
+            </ul>
+          </div>
+          <div class="col-md-4 row">
+            <ul>
+              <li>
+                <a href>
+                  <img src="img/twitter.png" alt="">
+                </a>
+              </li>
+              <li><a href>
+                <img src="img/twitter.png" alt="">
+              </a></li>
+              <li><a href>
+                <img src="img/twitter.png" alt="">
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>Desenvolvido por Karine Oliveira</p>
+    </footer>
+    <!--Fim Footer-->
+    <script
+      src="bootstrap/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

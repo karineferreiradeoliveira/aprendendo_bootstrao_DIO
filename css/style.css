@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+body {
+    background-color:rgba(15, 7, 7, 0.027);
+}
+.navbar {
+    background-color: #2D3142;
+    padding-right: 80px;
+}
+.navbar-transparente {
+    padding: 15px 0;
+    background: rgba(10, 22, 46, 0.788);;
+}
+
+.quemsomos {
+    color:#4f5d75ad;  
+}
+.margin-nav {
+    padding-left: 20px;
+}
+.margin-logo {
+    margin: 10px;
+}
+.margin {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.padding-titulos {
+    padding: 15px 0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.parceiros {
+    color: #4f5d75ad ;
+
+}
+.servicos{
+    
+    color: #4f5d75ad;
+}
+.bg-footer {
+    background-color: #2D3142;
+    color: white;
+    
+}
