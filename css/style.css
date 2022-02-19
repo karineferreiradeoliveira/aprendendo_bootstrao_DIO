@@ -52,6 +52,9 @@ a:hover {
     background-color: rgba(10, 22, 46, 0.788);
     color: white; 
 }
-.bg-footer > p {
-    color: white;
+
+.assinatura {
+    display: flex;
+    justify-content: center;
 }
+
